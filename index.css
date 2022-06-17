@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif ;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    background-image: url(bg-intro-desktop.png);
+    background-color: coral;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+      
+.message {
+    display: block;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    /* top: 10px; */
+    color: white;
+    position: relative;
+}
+
+.message .par{
+    font-size: 0.8rem;
+    padding-left: 220px;
+    
+     
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+}
+
+.message h1{
+    padding-top:10px;
+    font-size: 30px;
+    padding-left: 220px;
+    margin-top: 35%;
+    line-height: 40px;
+    font-size: 2.1rem;
+}
+/* code for the button on the form*/
+.trial {
+    width: 390px;
+    float: left;
+    margin-top: 98px;
+    margin-left: 45px;
+    position: relative;
+    
+}
+
+#btn{
+    width: 100%;
+    height: 45px;
+    background: slateblue;
+    border: none;
+    border-radius: 6px;
+    margin-top: 13px;
+   
+    color: #fff;
+    font-size: 15px;
+    /* transition: 2s ease; */
+}
+#btn:focus{
+    outline: none;
+    
+}
+.form {
+    width: 390px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 180px;
+    left: 730px;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+/*code for the input*/
+.form input{
+    position: relative;
+    top: 17px;
+    width: 340px;
+    height: 39px;
+    background: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: #fff;
+    outline: none;
+}
+
+
+
+
+#button{
+    width: 340px;
+    height: 35px;
+    background: lightgreen;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#button p{
+    font-size: 0.85rem;
+    color: white;
+}
+.t-s{
+    font-size: 0.6rem;
+    color: gray;
+    text-align: center;
+    padding-top: 8px;
+} 
+
+.t-s a{
+    color: red;
+    text-decoration: none;
+}
+
+/* @media screen and (max-width: 375px) {
+    .container{
+        width: 100%;
+        background-image: url(bg-intro-mobile.png);
+        display: block; */
+        /* flex-direction: row; */
+        /* padding-left: 7px;
+        padding-right: 7px; */
+        /* padding-bottom: 50px;
+        justify-self: center;
+        align-self: center;
+        flex-wrap: wrap; */
+        /* grid-gap: 0.6rem; */
+        /* position: absolute;
+        left: 0;
+        margin: 0;
+    } */
+
+/* .message{
+    position: relative;
+    display: block; */
+    /* position: relative; */
+    /* float: none; */
+    /* display: grid; */
+    /* width: 50%; */
+    /* margin: auto; */
+    /* text-align: center;
+    align-self: center;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 0.1rem; */
+    /* } 
+    .message h1{
+        position: relative;
+        font-size: 1rem;
+        padding-left: 10px;
+        margin-top: 20%;
+    
+        
+    } */
+    /* .message p{
+        position: relative;
+        display: block;
+        flex: ; */
+        /* position: relative; */
+        /* letter-spacing: 1px; */
+        /* line-height: 30px; */
+        /* padding-top:10px;
+        font-size: 10px; */
+        /* padding-left: 10px; */
+        /* margin-top: 35%; */
+        /* line-height: 20px;
+        font-size: 0.6rem;
+    } */
+
+/* .trial{
+    position: relative;
+    flex-direction: row;
+    width: 50%;
+    
+} */
+/* .form {
+    width: 310px;
+    position: relative; */
+    /* position: relative; */
+    /* display: block; */
+    /* display: grid; */
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    /* align-self: center;
+    top: 24px;
+    left: 0; */
+    /* padding-top: 20px; */
+    
+/* 
+        .trial #btn{
+            width: 310px;
+            position: relative; */
+            /* display: block; */
+            /* width: 100%px; */
+            /* margin-top: 98px; */
+            /* margin-left: 0px; */
+            /* align-self: center; */
+            /* position: relative; */
+            /* width: 100%; */
+            /* flex-direction: row; */
+            /* height: 45px; */
+            /* background: slateblue;
+            border: 1px solid white;
+            border-radius: 6px;
+            margin-top: 25px;
+        
+            color: #fff;
+            font-size: 15px;
+        } */
+        /* .form input{
+            position: relative;
+            top: 17px;
+            width: 310px;
+            height: 39px;
+            background: transparent;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-top: 50px;
+            padding: 12px;
+            margin: 5px 0 22px 0;
+            border: 1px solid gray;
+            border-radius: 3px;
+            background: #fff;
+            outline: none; */
+        /* }
+        #button{
+            width: 310px;
+            background: lightgreen;
+            border: none;
+            border-radius: 4px;
+            padding:  13px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: white;
+            text-align: center;
+        }
+        .t-s{
+            font-size: 0.5rem;
+            color: gray;
+            text-align: center;
+            padding: 6px;
+            
+        }  */
